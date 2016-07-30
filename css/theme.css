@@ -46,14 +46,14 @@ body {
   font-size: 13px;
   line-height: 24px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #666;
+  color: #414a3f;
   overflow-x: hidden;
 }
 body.boxed-layout {
-  background: #eee;
+  background: #afd9c0;
 }
 body.boxed-layout .main-container {
-  background: #fff;
+  background: #675454;
 }
 body.boxed-layout,
 .boxed-layout .nav-container,
@@ -85,11 +85,11 @@ hr.short-thick {
   opacity: 1 !important;
 }
 .image-bg hr {
-  border-color: #fff;
+  border-color: #dcf800;
   opacity: .6;
 }
 .image-bg.bg-light hr {
-  border-color: #ccc;
+  border-color: #fcfcfc;
   opacity: 1;
 }
 .bg-dark hr {
@@ -921,7 +921,7 @@ nav.nav-centered .logo {
   margin: 64px 0 40px 0;
 }
 nav.bg-dark .logo-light {
-  display: inline;
+  display: none;
 }
 nav.bg-dark .logo-dark {
   display: none;
