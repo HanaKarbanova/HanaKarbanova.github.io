@@ -46,14 +46,14 @@ body {
   font-size: 13px;
   line-height: 24px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #414a3f;
+  color: #666;
   overflow-x: hidden;
 }
 body.boxed-layout {
-  background: #afd9c0;
+  background: #eee;
 }
 body.boxed-layout .main-container {
-  background: #675454;
+  background: #fff;
 }
 body.boxed-layout,
 .boxed-layout .nav-container,
@@ -85,11 +85,11 @@ hr.short-thick {
   opacity: 1 !important;
 }
 .image-bg hr {
-  border-color: #dcf800;
+  border-color: #fff;
   opacity: .6;
 }
 .image-bg.bg-light hr {
-  border-color: #fcfcfc;
+  border-color: #ccc;
   opacity: 1;
 }
 .bg-dark hr {
@@ -120,7 +120,7 @@ hr.short-thick {
   display: block;
 }
 .show-grid {
-  border: 1px dashed #ccc;
+  border: 1px dashed rgba(255, 255, 255, 0);
   padding: 8px;
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -672,13 +672,6 @@ footer.bg-dark li,
 .container.image-bg .row {
   position: relative;
   z-index: 3;
-  background-color: aqua;
-
-}
-
-#ir2{
-    
-  background-color: aquamarine; 
 }
 .background-image-holder {
   position: absolute;
@@ -794,6 +787,10 @@ footer.bg-dark li,
 .btn-filled {
   background: #47b475;
   color: #fff;
+}
+.btn-blue {
+  background: #0000FF;
+  color: #fff !important;
 }
 .btn-white,
 .image-bg .btn,
@@ -928,7 +925,7 @@ nav.nav-centered .logo {
   margin: 64px 0 40px 0;
 }
 nav.bg-dark .logo-light {
-  display: none;
+  display: inline;
 }
 nav.bg-dark .logo-dark {
   display: none;
@@ -2153,6 +2150,10 @@ button[type="submit"] .form-loading {
   background: #47b475;
   color: #fff;
 }
+.accordion-1 .active2 .title {
+  background: #0000FF;
+  color: #fff;
+}
 .accordion-1 .content {
   border: 1px solid #eee;
   border-top: none;
@@ -2175,6 +2176,9 @@ button[type="submit"] .form-loading {
 }
 .accordion-1 .active .title:hover {
   background: #47b475;
+}
+.accordion-1 .active2 .title:hover {
+  background: #0011FF;
 }
 .accordion-2 .title {
   font-size: 16px;
@@ -5053,6 +5057,9 @@ footer.bg-dark a {
 }
 .mt8 {
   margin-top: 8px;
+}
+.mt40 {
+  margin-top: 40px;
 }
 .pt0 {
   padding-top: 0;
