@@ -120,7 +120,7 @@ hr.short-thick {
   display: block;
 }
 .show-grid {
-  border: 1px dashed rgba(255, 255, 255, 0);
+  border: 1px dashed #ccc;
   padding: 8px;
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -672,6 +672,13 @@ footer.bg-dark li,
 .container.image-bg .row {
   position: relative;
   z-index: 3;
+  background-color: aqua;
+
+}
+
+#ir2{
+    
+  background-color: aquamarine; 
 }
 .background-image-holder {
   position: absolute;
